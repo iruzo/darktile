@@ -1,0 +1,24 @@
+# frappe
+
+black: '#292c3c'               # mantle
+red: '#e78284'                 # red
+green: '#a6d189'               # green
+yellow: '#ef9f76'              # peach
+blue: '#8caaee'                # blue
+magenta: '#ca9ee6'             # mauve
+cyan: '#99d1db'                # sky
+white: '#c6d0f5'               # text
+brightblack: '#838ba7'         # overlay1 - used in zsh for autosuggestion
+brightred: '#ea999c'           # maroon
+brightgreen: '#81c8be'         # teal
+brightyellow: '#e5c890'        # yellow
+brightblue: '#85c1dc'          # sapphire
+brightmagenta: '#babbf1'       # lavender
+brightcyan: '#99d1db'          # sky
+brightwhite: '#f2d5cf'         # rosewater
+background: '#303446'          # base
+foreground: '#c6d0f5'          # text
+selectionbackground: '#51576d' # surface
+selectionforeground: '#c6d0f5' # text
+cursorforeground: '#232634'    # crust
+cursorbackground: '#f4b8e4'    # pink

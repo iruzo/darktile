@@ -1,0 +1,24 @@
+# latte
+
+black: '#dce0e8'               # mantle
+red: '#d20f39'                 # red
+green: '#40a02b'               # green
+yellow: '#fe640b'              # peach
+blue: '#1e66f5'                # blue
+magenta: '#8839ef'             # mauve
+cyan: '#04a5e5'                # sky
+white: '#4c4f69'               # text
+brightblack: '#8c8fa1'         # overlay1 - used in zsh for autosuggestion
+brightred: '#e64553'           # maroon
+brightgreen: '#179299'         # teal
+brightyellow: '#df8e1d'        # yellow
+brightblue: '#209fb5'          # sapphire
+brightmagenta: '#7287fd'       # lavender
+brightcyan: '#04a5e5'          # sky
+brightwhite: '#dc8a78'         # rosewater
+background: '#eff1f5'          # base
+foreground: '#4c4f69'          # text
+selectionbackground: '#bcc0cc' # surface
+selectionforeground: '#4c4f69' # text
+cursorforeground: '#dce0e8'    # crust
+cursorbackground: '#ea76cb'    # pink
