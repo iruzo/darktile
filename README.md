@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Download your favourite flavour from this repository
+1. Download your favourite flavour from this repository (themes/)
 2. Copy it into ~/.config/darktile/theme.yaml
 
 ## 💝 Thanks to

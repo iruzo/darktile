@@ -1,0 +1,33 @@
+---
+whiskers:
+  version: 2.5.1
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.yaml"
+---
+
+{%- set palette = flavor.colors -%}
+
+# Catppuccin {{ flavor.name }}
+black: '#{{ palette.mantle.hex }}'
+red: '#{{ palette.red.hex }}'
+green: '#{{ palette.green.hex }}'
+yellow: '#{{ palette.peach.hex }}'
+blue: '#{{ palette.blue.hex }}'
+magenta: '#{{ palette.mauve.hex }}'
+cyan: '#{{ palette.sky.hex }}'
+white: '#{{ palette.text.hex }}'
+brightblack: '#{{ palette.overlay1.hex }}'
+brightred: '#{{ palette.maroon.hex }}'
+brightgreen: '#{{ palette.teal.hex }}'
+brightyellow: '#{{ palette.yellow.hex }}'
+brightblue: '#{{ palette.sapphire.hex }}'
+brightmagenta: '#{{ palette.lavender.hex }}'
+brightcyan: '#{{ palette.sky.hex }}'
+brightwhite: '#{{ palette.rosewater.hex }}'
+background: '#{{ palette.base.hex }}'
+foreground: '#{{ palette.text.hex }}'
+selectionbackground: '#{{ palette.overlay2.hex }}'
+selectionforeground: '#{{ palette.text.hex }}'
+cursorforeground: '#{{ palette.rosewater.hex }}'
+cursorbackground: '{% if flavor.identifier == "latte" %}#{{ palette.base.hex }}{% else %}#{{ palette.crust.hex }}{% endif %}'
